@@ -1,0 +1,5 @@
+model,test_auc,train_seconds,default_recall@0.5,default_precision@0.5,tuned_threshold,default_recall_tuned,default_precision_tuned,default_f1_tuned,accuracy_tuned
+Logistic Regression,0.7185,13,0.668,0.304,0.537,0.596,0.325,0.42,0.693
+"Neural Network (MLP, undersampled)",0.7189,12,0.656,0.308,0.543,0.583,0.328,0.42,0.7
+Random Forest (balanced),0.7147,78,0.67,0.3,0.534,0.58,0.324,0.416,0.696
+HistGradientBoosting (balanced),0.7245,115,0.668,0.309,0.532,0.609,0.327,0.426,0.694
