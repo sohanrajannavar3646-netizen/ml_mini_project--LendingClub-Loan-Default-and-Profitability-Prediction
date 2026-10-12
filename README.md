@@ -36,7 +36,7 @@ Only features known when the application is made are used (27 features: 20 numer
 Python 3.9+ is recommended.
 
 ```bash
-pip install pandas numpy scikit-learn matplotlib
+pip install -r requirements.txt
 ```
 
 Download the dataset from Kaggle and place the CSV next to the scripts (or note its path).
